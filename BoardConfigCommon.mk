@@ -166,7 +166,7 @@ TARGET_USES_MKE2FS := true
 RECOVERY_VARIANT := twrp
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
-PRODUCT_COPY_FILES += $(COMMON_PATH)/rootdir/etc/twrp.fstab:recovery/root/etc/twrp.fstab
+# PRODUCT_COPY_FILES += $(COMMON_PATH)/rootdir/etc/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
